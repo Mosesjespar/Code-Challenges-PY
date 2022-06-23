@@ -17,4 +17,4 @@ class Solution:
         if (year % 4 == 0 and year % 100 != 0) or year % 400 == 0:
             day_of_month[2] += 1
         return sum(day_of_month[:month]) + day
-        gy
+        
